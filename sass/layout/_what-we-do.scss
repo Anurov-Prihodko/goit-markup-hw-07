@@ -1,0 +1,47 @@
+.what-we-do-list {
+  display: flex;
+  position: relative;
+  z-index: -1;
+}
+
+.what-we-do-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.what-we-do-item {
+  position: relative;
+  width: 370px;
+}
+
+.what-we-do {
+  padding-bottom: 95px;
+}
+
+.recital-foto {
+  justify-content: center;
+  align-self: center;
+  font-family: var(--text-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--white-color);
+}
+
+.description-what-we-do {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  display: flex;
+  justify-content: center;
+  align-self: center;
+
+  width: 100%;
+  height: 70px;
+
+  background-color: var(--what-we-do-background);
+}
