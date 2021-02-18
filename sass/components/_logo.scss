@@ -4,7 +4,7 @@
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  color: var(--black-color);
+  color: $black-color;
   margin-right: 95px;
 }
 
@@ -12,13 +12,13 @@
   display: inline-block;
   margin-right: 0px;
   margin-bottom: 20px;
-  color: var(--white-color);
+  color: $white-color;
 }
 
 .logo-portfolio {
-  color: var(--black-color);
+  color: $black-color;
 }
 
 .logo-blue {
-  color: var(--accent-color);
+  color: $accent-color;
 }

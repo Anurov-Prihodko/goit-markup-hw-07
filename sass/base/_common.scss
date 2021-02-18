@@ -29,8 +29,8 @@ img {
 }
 
 body {
-  font-family: var(--text-font);
-  color: var(--text-main-color);
+  font-family: $text-font;
+  color: $text-main-color;
 }
 
 .link {

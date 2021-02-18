@@ -4,17 +4,7 @@
 }
 
 .social-list-icon {
-  transition: fill var(--time) var(--function-time);
-}
-
-.social-list-link:hover,
-.social-list-link:focus {
-  background-color: var(--accent-color);
-}
-
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-  fill: var(--white-color);
+  transition: fill $time $function-time;
 }
 
 .social-list-link {
@@ -24,15 +14,34 @@
   width: 100%;
   height: 100%;
 
-  background-color: var(--white-color);
+  background-color: $white-color;
   border-radius: 50%;
-  color: var(--icon-color);
+  color: $icon-color;
   fill: currentColor;
 
-  transition: background-color var(--time) var(--function-time),
-    color var(--time) var(--function-time),
-    fill var(--time) var(--function-time);
+  transition: background-color $time $function-time, color $time $function-time,
+    fill $time $function-time;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+
+  &:hover .social-list-icon,
+  &:focus .social-list-icon {
+    fill: $white-color;
+  }
 }
+
+// .social-list-link:hover,
+// .social-list-link:focus {
+//   background-color: $accent-color;
+// }
+
+// .social-list-link:hover .social-list-icon,
+// .social-list-link:focus .social-list-icon {
+//   fill: $white-color;
+// }
 
 .social-list-item {
   width: 44px;
@@ -57,18 +66,23 @@
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  color: var(--white-color);
+  color: $white-color;
   fill: currentColor;
-  background-color: var(--icon-background);
+  background-color: $icon-background;
 
-  transition: background-color var(--time) var(--function-time);
+  transition: background-color $time $function-time;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
 }
+
+// .join-us-link:hover,
+// .join-us-link:focus {
+//   background-color: var(--accent-color);
+// }
 
 .join-us-item:not(:last-child) {
   margin-right: 10px;
-}
-
-.join-us-link:hover,
-.join-us-link:focus {
-  background-color: var(--accent-color);
 }

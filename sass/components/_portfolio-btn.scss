@@ -3,22 +3,27 @@
   font-size: 16px;
   line-height: 1.625;
   letter-spacing: 0.03em;
-  background: var(--background-team);
-  color: var(--text-head-color);
+  background: $background-team;
+  color: $text-head-color;
   padding: 6px 22px;
 
-  transition: background-color var(--time) var(--function-time),
-    color var(--time) var(--function-time),
-    box-shadow var(--time) var(--function-time);
+  transition: background-color $time $function-time, color $time $function-time,
+    box-shadow $time $function-time;
+
+  &:hover,
+  &:focus {
+    color: $white-color;
+    background-color: $accent-color;
+    box-shadow: $box-shadow-portfolio;
+  }
 }
 
-.portfolio-btn:hover,
-.portfolio-btn:focus {
-  color: var(--white-color);
-  background-color: var(--accent-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+// .portfolio-btn:hover,
+// .portfolio-btn:focus {
+//   color: $white-color;
+//   background-color: $accent-color;
+//   box-shadow: $box-shadow-portfolio;
+// }
 
 .portfolio-btn-item {
   margin-bottom: 50px;

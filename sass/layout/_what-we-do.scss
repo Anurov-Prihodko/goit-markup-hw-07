@@ -20,7 +20,7 @@
 .recital-foto {
   justify-content: center;
   align-self: center;
-  font-family: var(--text-font);
+  font-family: $text-font;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
@@ -28,7 +28,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: var(--white-color);
+  color: $white-color;
 }
 
 .description-what-we-do {
@@ -39,9 +39,8 @@
   display: flex;
   justify-content: center;
   align-self: center;
-
   width: 100%;
   height: 70px;
 
-  background-color: var(--what-we-do-background);
+  background-color: $what-we-do-background;
 }

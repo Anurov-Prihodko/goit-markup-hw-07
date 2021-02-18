@@ -3,7 +3,7 @@
   font-size: 16px;
   line-height: 1.188;
   letter-spacing: 0.03em;
-  color: var(--text-head-color);
+  color: $text-head-color;
   margin-bottom: 10px;
 }
 
@@ -12,13 +12,13 @@
   font-size: 16px;
   line-height: 1.188;
   letter-spacing: 0.03em;
-  color: var(--text-main-color);
+  color: $text-main-color;
   margin-bottom: 16px;
 }
 
 .our-team {
   padding: 95px 0;
-  background-color: var(--background-team);
+  background-color: $background-team;
 }
 
 .our-team-description {
@@ -28,8 +28,8 @@
 
 .our-team-item {
   width: 270px;
-  background-color: var(--white-color);
-  box-shadow: var(--our-team-shadow);
+  background-color: $white-color;
+  box-shadow: $our-team-shadow;
   border-radius: 0px 0px 4px 4px;
 }
 
