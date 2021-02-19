@@ -4,14 +4,18 @@
   z-index: -1;
 }
 
-.what-we-do-item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .what-we-do-item {
   position: relative;
   width: 370px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
+
+// .what-we-do-item:not(:last-child) {
+//   margin-right: 30px;
+// }
 
 .what-we-do {
   padding-bottom: 95px;

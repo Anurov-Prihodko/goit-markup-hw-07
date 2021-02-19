@@ -17,9 +17,15 @@
   }
 }
 
-.contacts-list:not(:last-child) {
-  margin-right: 50px;
+.contacts-list {
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }
+
+// .contacts-list:not(:last-child) {
+//   margin-right: 50px;
+// }
 
 // .contacts-link:hover,
 // .contacts-link:focus {

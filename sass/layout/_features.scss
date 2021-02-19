@@ -19,13 +19,17 @@
   display: flex;
 }
 
-.features-list-item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .features-list-item {
   width: 270px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
+
+// .features-list-item:not(:last-child) {
+//   margin-right: 30px;
+// }
 
 .tumb {
   display: flex;

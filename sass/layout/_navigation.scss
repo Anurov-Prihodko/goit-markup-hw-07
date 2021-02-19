@@ -73,13 +73,17 @@
   }
 }
 
-.site-nav-list:not(:last-child) {
-  margin-right: 50px;
-}
-
 .site-nav-list {
   position: relative;
+
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }
+
+// .site-nav-list:not(:last-child) {
+//   margin-right: 50px;
+// }
 
 .site-nav-link {
   display: flex;

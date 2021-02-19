@@ -47,11 +47,15 @@
 .form-field {
   display: flex;
   flex-direction: column;
+
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
 }
 
-.form-field:not(:last-child) {
-  margin-bottom: 10px;
-}
+// .form-field:not(:last-child) {
+//   margin-bottom: 10px;
+// }
 
 .form-field input {
   margin: 0;
@@ -80,11 +84,15 @@
 
   transition: fill $time $function-time;
   transform: translateY(-50%);
+
+  .form-input-modal:focus + & {
+    fill: $accent-color;
+  }
 }
 
-.form-input-modal:focus + .form-img {
-  fill: $accent-color;
-}
+// .form-input-modal:focus + .form-img {
+//   fill: $accent-color;
+// }
 
 .form-input-modal {
   width: 100%;
@@ -172,25 +180,43 @@
   border-radius: 2px;
 
   transition: all $time $function-time;
+
+  .check-input:checked ~ & {
+    background-image: url(../img/modal/checkbox-icomoon.svg);
+    border-color: $accent-color;
+    background-color: $accent-color;
+    background-size: contain;
+    background-position: center;
+    background-origin: border-box;
+  }
+
+  .check-input:focus ~ & {
+    background-image: url(../img/modal/checkbox-icomoon.svg);
+    border-color: $accent-color;
+    background-size: contain;
+    background-position: center;
+    background-origin: border-box;
+    /* border-radius: 2px; */
+  }
 }
 
-.check-input:checked ~ .check::before {
-  background-image: url(../img/modal/checkbox-icomoon.svg);
-  border-color: $accent-color;
-  background-color: $accent-color;
-  background-size: contain;
-  background-position: center;
-  background-origin: border-box;
-}
+// .check-input:checked ~ .check::before {
+//   background-image: url(../img/modal/checkbox-icomoon.svg);
+//   border-color: $accent-color;
+//   background-color: $accent-color;
+//   background-size: contain;
+//   background-position: center;
+//   background-origin: border-box;
+// }
 
-.check-input:focus ~ .check::before {
-  background-image: url(../img/modal/checkbox-icomoon.svg);
-  border-color: $accent-color;
-  background-size: contain;
-  background-position: center;
-  background-origin: border-box;
-  /* border-radius: 2px; */
-}
+// .check-input:focus ~ .check::before {
+//   background-image: url(../img/modal/checkbox-icomoon.svg);
+//   border-color: $accent-color;
+//   background-size: contain;
+//   background-position: center;
+//   background-origin: border-box;
+//   /* border-radius: 2px; */
+// }
 
 .check-text {
   color: $accent-color;
@@ -211,7 +237,6 @@
 }
 
 .agree-checkbox label {
-  /* font-family: var(--text-font); */
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;

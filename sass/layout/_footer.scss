@@ -34,9 +34,15 @@
   background-color: $background-footer;
 }
 
-.basement-contacts-item:not(:last-child) {
-  margin-bottom: 9px;
+.basement-contacts-item {
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
+
+// .basement-contacts-item:not(:last-child) {
+//   margin-bottom: 9px;
+// }
 
 .blok-footer {
   display: flex;

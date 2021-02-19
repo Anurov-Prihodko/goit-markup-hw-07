@@ -31,12 +31,16 @@
   background-color: $white-color;
   box-shadow: $our-team-shadow;
   border-radius: 0px 0px 4px 4px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
+
+// .our-team-item:not(:last-child) {
+//   margin-right: 30px;
+// }
 
 .our-team-list {
   display: flex;
-}
-
-.our-team-item:not(:last-child) {
-  margin-right: 30px;
 }
