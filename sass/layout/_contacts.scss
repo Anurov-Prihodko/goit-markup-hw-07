@@ -1,8 +1,10 @@
 .contacts-link {
-  font-weight: 500;
-  font-size: 14px;
+  @include font($fw: 500, $ls: 0.02em);
+  //  font-size: 14px;
+  // font-weight: 500;
+  // letter-spacing: 0.02em;
+
   line-height: 1.143;
-  letter-spacing: 0.02em;
   color: $text-main-color;
   padding-top: 32px;
   padding-bottom: 32px;
