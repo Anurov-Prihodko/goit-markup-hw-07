@@ -40,7 +40,7 @@ img {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #757575;
 }
 
@@ -105,7 +105,7 @@ body {
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.06em;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.875;
   display: flex;
   align-items: center;
@@ -134,13 +134,17 @@ body {
   background: #f5f4fa;
   color: #212121;
   padding: 6px 22px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-btn:hover, .portfolio-btn:focus {
+.portfolio-btn:hover,
+.portfolio-btn:focus {
   color: #ffffff;
   background-color: #2196f3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-btn-item {
@@ -189,7 +193,7 @@ body {
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.06em;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 30px;
   color: #ffffff;
   padding: 10px 55px;
@@ -201,7 +205,8 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-btn:hover, .form-btn:focus {
+.form-btn:hover,
+.form-btn:focus {
   background-color: #188ce8;
 }
 
@@ -247,10 +252,13 @@ body {
   border-radius: 50%;
   color: #afb1b8;
   fill: currentColor;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-link:hover, .social-list-link:focus {
+.social-list-link:hover,
+.social-list-link:focus {
   background-color: #2196f3;
 }
 
@@ -287,20 +295,22 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.join-us-link:hover, .join-us-link:focus {
+.join-us-link:hover,
+.join-us-link:focus {
   background-color: #2196f3;
 }
 
 .site-nav-link {
-  font-weight: 500;
   font-size: 14px;
-  line-height: 1.143;
+  font-weight: 500;
   letter-spacing: 0.02em;
+  line-height: 1.143;
   color: #212121;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav-link:hover, .site-nav-link:focus {
+.site-nav-link:hover,
+.site-nav-link:focus {
   color: #2196f3;
 }
 
@@ -331,7 +341,7 @@ body {
   position: absolute;
   left: 0;
   bottom: 0;
-  content: "";
+  content: '';
   width: 100%;
   height: 4px;
   background: #2196f3;
@@ -384,7 +394,8 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-link:hover, .contacts-link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: #2196f3;
 }
 
@@ -407,10 +418,10 @@ body {
 }
 
 .hero-title {
-  font-weight: 900;
   font-size: 44px;
-  line-height: 1.364;
+  font-weight: 900;
   letter-spacing: 0.06em;
+  line-height: 1.364;
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 30px;
@@ -431,27 +442,31 @@ body {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: rgba(47, 48, 58, 0.4);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero/hero-background.jpg);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../img/hero/hero-background.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .features-title {
-  font-weight: 700;
   font-size: 14px;
-  line-height: 1.143;
+  font-weight: 700;
   letter-spacing: 0.03em;
+  line-height: 1.143;
   text-transform: uppercase;
   color: #212121;
   margin-bottom: 10px;
 }
 
 .features-text {
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.714;
+  font-weight: 400;
   letter-spacing: 0.03em;
+  line-height: 1.714;
 }
 
 .features-list {
@@ -470,7 +485,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  content: "";
+  content: '';
   height: 120px;
   width: 270px;
   border-radius: 4px;
@@ -508,11 +523,11 @@ body {
 .recital-foto {
   justify-content: center;
   align-self: center;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  line-height: 1.143;
+  font-weight: 700;
   letter-spacing: 0.03em;
+  line-height: 1.143;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -530,19 +545,19 @@ body {
 }
 
 .our-team-title {
-  font-weight: 500;
   font-size: 16px;
-  line-height: 1.188;
+  font-weight: 500;
   letter-spacing: 0.03em;
+  line-height: 1.188;
   color: #212121;
   margin-bottom: 10px;
 }
 
 .our-team-prof {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 1.188;
+  font-weight: 400;
   letter-spacing: 0.03em;
+  line-height: 1.188;
   color: #757575;
   margin-bottom: 16px;
 }
@@ -560,7 +575,8 @@ body {
 .our-team-item {
   width: 270px;
   background-color: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -602,10 +618,13 @@ body {
   border-radius: 4px;
   color: #afb1b8;
   fill: currentColor;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.regular-list-link:hover, .regular-list-link:focus {
+.regular-list-link:hover,
+.regular-list-link:focus {
   border-color: #2196f3;
 }
 
@@ -619,25 +638,26 @@ body {
 }
 
 .address-text {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.714;
+  font-weight: 400;
   letter-spacing: 0.03em;
+  line-height: 1.714;
+  font-family: 'Roboto', sans-serif;
   color: #ffffff;
   margin-bottom: 9px;
 }
 
 .basement-contacts-link {
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.714;
+  font-weight: 400;
   letter-spacing: 0.03em;
+  line-height: 1.714;
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.basement-contacts-link:hover, .basement-contacts-link:focus {
+.basement-contacts-link:hover,
+.basement-contacts-link:focus {
   color: #2196f3;
 }
 
@@ -666,11 +686,11 @@ body {
 }
 
 .join-us-text {
-  font-family: Roboto;
-  font-weight: 700;
   font-size: 14px;
-  line-height: 1.143;
+  font-weight: 700;
   letter-spacing: 0.03em;
+  line-height: 1.143;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 20px;
@@ -681,11 +701,11 @@ body {
   align-items: baseline;
   flex-direction: column;
   width: 570px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  line-height: 1.143;
+  font-weight: 700;
   letter-spacing: 0.03em;
+  line-height: 1.143;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -715,10 +735,11 @@ body {
 }
 
 .form-input {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  line-height: 1.25;
+  font-weight: 400;
   letter-spacing: 0.03em;
+  line-height: 1.25;
   color: #ffffff;
 }
 
@@ -732,19 +753,19 @@ body {
 }
 
 .work-examples-title {
-  font-weight: 700;
   font-size: 18px;
-  line-height: 2;
+  font-weight: 700;
   letter-spacing: 0.06em;
+  line-height: 2;
   margin-bottom: 4px;
   color: #212121;
 }
 
 .work-examples-text {
-  font-weight: 400;
   font-size: 16px;
-  line-height: 1.875;
+  font-weight: 400;
   letter-spacing: 0.03em;
+  line-height: 1.875;
   color: #757575;
 }
 
@@ -783,8 +804,10 @@ body {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.work-examples-link:hover, .work-examples-link:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+.work-examples-link:hover,
+.work-examples-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .tehnocrack-card {
@@ -793,11 +816,12 @@ body {
 }
 
 .tehnocrack-text {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 18px;
-  line-height: 1.556;
+  font-weight: 400;
   letter-spacing: 0.03em;
+  line-height: 1.556;
   color: #ffffff;
   padding: 63px 24px;
 }
@@ -834,7 +858,8 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
@@ -848,16 +873,16 @@ body {
   margin-right: auto;
   margin-left: auto;
   background-color: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
 
 .modal-title {
-  /* font-family: var(--text-font); */
-  font-weight: 700;
   font-size: 20px;
-  line-height: 1.15;
+  font-weight: 700;
   letter-spacing: 0.03em;
+  line-height: 1.15;
   color: #212121;
   margin-top: 0;
   margin-bottom: 12px;
@@ -917,11 +942,11 @@ body {
 }
 
 .form-field label {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 12px;
-  line-height: 1.167;
+  font-weight: 400;
   letter-spacing: 0.01em;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.167;
   color: #757575;
   margin-bottom: 4px;
 }
@@ -938,7 +963,7 @@ body {
 }
 
 .form-field textarea::placeholder {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.143;
@@ -962,7 +987,7 @@ body {
   top: 50%;
   left: 8px;
   transform: translateY(-50%);
-  content: "";
+  content: '';
   display: inline-block;
   width: 16px;
   height: 15px;
@@ -1009,10 +1034,10 @@ body {
 }
 
 .agree-checkbox label {
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.714;
+  font-weight: 400;
   letter-spacing: 0.03em;
+  line-height: 1.714;
   text-align: center;
   color: #757575;
 }

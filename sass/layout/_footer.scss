@@ -1,20 +1,23 @@
 .address-text {
-  font-family: $text-font;
-  font-weight: 400;
-  font-size: 14px;
+  @include font();
+  //   font-weight: 400;
+  // font-size: 14px;
+  //   letter-spacing: 0.03em;
+
   line-height: 1.714;
-  letter-spacing: 0.03em;
+  font-family: $text-font;
   color: $white-color;
   margin-bottom: 9px;
 }
 
 .basement-contacts-link {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-  color: $contacts-color;
+  @include font();
+  // font-weight: 400;
+  // font-size: 14px;
+  //   letter-spacing: 0.03em;
 
+  line-height: 1.714;
+  color: $contacts-color;
   transition: color $time $function-time;
 
   &:hover,
@@ -59,11 +62,13 @@
 }
 
 .join-us-text {
-  font-family: Roboto;
-  font-weight: 700;
-  font-size: 14px;
+  @include font($fw: 700);
+  // font-weight: 700;
+  // font-size: 14px;
+  // letter-spacing: 0.03em;
+
   line-height: 1.143;
-  letter-spacing: 0.03em;
+  font-family: $text-font;
   text-transform: uppercase;
   color: $white-color;
   margin-bottom: 20px;
@@ -71,16 +76,18 @@
 
 .subscribe {
   display: flex;
-
   align-items: baseline;
   flex-direction: column;
-
   width: 570px;
+
   font-family: $text-font;
-  font-weight: 700;
-  font-size: 14px;
+
+  @include font($fw: 700);
+  // font-weight: 700;
+  // font-size: 14px;
+  // letter-spacing: 0.03em;
+
   line-height: 1.143;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 
   color: $white-color;
@@ -116,8 +123,10 @@
 
 .form-input {
   font-family: $text-font;
-  font-size: 16px;
+  @include font($fs: 16px, $fw: 400);
+  // font-size: 16px;
+  // letter-spacing: 0.03em;
+
   line-height: 1.25;
-  letter-spacing: 0.03em;
   color: $white-color;
 }

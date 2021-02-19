@@ -1,17 +1,21 @@
 .our-team-title {
-  font-weight: 500;
-  font-size: 16px;
+  @include font($fs: 16px, $fw: 500);
+  // font-weight: 500;
+  // font-size: 16px;
+  // letter-spacing: 0.03em;
+
   line-height: 1.188;
-  letter-spacing: 0.03em;
   color: $text-head-color;
   margin-bottom: 10px;
 }
 
 .our-team-prof {
-  font-weight: 400;
-  font-size: 16px;
+  @include font($fs: 16px);
+  // font-weight: 400;
+  // font-size: 16px;
+  // letter-spacing: 0.03em;
+
   line-height: 1.188;
-  letter-spacing: 0.03em;
   color: $text-main-color;
   margin-bottom: 16px;
 }

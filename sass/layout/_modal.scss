@@ -34,11 +34,12 @@
 }
 
 .modal-title {
-  /* font-family: var(--text-font); */
-  font-weight: 700;
-  font-size: 20px;
+  @include font($fs: 20px, $fw: 700);
+  // font-weight: 700;
+  // font-size: 20px;
+  // letter-spacing: 0.03em;
+
   line-height: 1.15;
-  letter-spacing: 0.03em;
   color: $text-head-color;
   margin-top: 0;
   margin-bottom: 12px;
@@ -113,12 +114,13 @@
 // }
 
 .form-field label {
-  font-family: $text-font;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.167;
-  letter-spacing: 0.01em;
+  @include font($fs: 12px, $ls: 0.01em);
+  // font-weight: 400;
+  // font-size: 12px;
+  // letter-spacing: 0.01em;
 
+  font-family: $text-font;
+  line-height: 1.167;
   color: $text-main-color;
   margin-bottom: 4px;
 }
@@ -237,10 +239,12 @@
 }
 
 .agree-checkbox label {
-  font-weight: 400;
-  font-size: 14px;
+  @include font();
+  // font-weight: 400;
+  // font-size: 14px;
+  // letter-spacing: 0.03em;
+
   line-height: 1.714;
-  letter-spacing: 0.03em;
   text-align: center;
   color: $text-main-color;
 }
