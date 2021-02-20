@@ -12,11 +12,6 @@
   }
 }
 
-// .social-list-link:hover .social-list-icon,
-// .social-list-link:focus .social-list-icon {
-//   fill: $white-color;
-// }
-
 .social-list-link {
   display: flex;
   justify-content: center;
@@ -38,11 +33,6 @@
   }
 }
 
-// .social-list-link:hover,
-// .social-list-link:focus {
-//   background-color: $accent-color;
-// }
-
 .social-list-item {
   width: 44px;
   height: 44px;
@@ -63,10 +53,6 @@
   }
 }
 
-// .join-us-item:not(:last-child) {
-//   margin-right: 10px;
-// }
-
 .join-us-link {
   display: flex;
   justify-content: center;
@@ -85,8 +71,3 @@
     background-color: $accent-color;
   }
 }
-
-// .join-us-link:hover,
-// .join-us-link:focus {
-//   background-color: var(--accent-color);
-// }

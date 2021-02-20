@@ -1,8 +1,5 @@
 .our-team-title {
   @include font($fs: 16px, $fw: 500);
-  // font-weight: 500;
-  // font-size: 16px;
-  // letter-spacing: 0.03em;
 
   line-height: 1.188;
   color: $text-head-color;
@@ -11,9 +8,6 @@
 
 .our-team-prof {
   @include font($fs: 16px);
-  // font-weight: 400;
-  // font-size: 16px;
-  // letter-spacing: 0.03em;
 
   line-height: 1.188;
   color: $text-main-color;
@@ -40,10 +34,6 @@
     margin-right: 30px;
   }
 }
-
-// .our-team-item:not(:last-child) {
-//   margin-right: 30px;
-// }
 
 .our-team-list {
   display: flex;

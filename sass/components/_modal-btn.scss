@@ -5,9 +5,6 @@
 
 .form-btn {
   @include font(16px, 700, 0.06em);
-  // font-size: 16px;
-  // font-weight: 700;
-  // letter-spacing: 0.06em;
 
   font-family: $text-font;
   line-height: 30px;
@@ -26,8 +23,3 @@
     background-color: $bkg-btn-form;
   }
 }
-
-// .form-btn:hover,
-// .form-btn:focus {
-//   background-color: #188ce8;
-// }

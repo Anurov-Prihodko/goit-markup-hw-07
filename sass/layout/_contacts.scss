@@ -1,8 +1,5 @@
 .contacts-link {
   @include font($fw: 500, $ls: 0.02em);
-  //  font-size: 14px;
-  // font-weight: 500;
-  // letter-spacing: 0.02em;
 
   line-height: 1.143;
   color: $text-main-color;
@@ -24,15 +21,6 @@
     margin-right: 50px;
   }
 }
-
-// .contacts-list:not(:last-child) {
-//   margin-right: 50px;
-// }
-
-// .contacts-link:hover,
-// .contacts-link:focus {
-//   color: $accent-color;
-// }
 
 .contacts {
   display: flex;

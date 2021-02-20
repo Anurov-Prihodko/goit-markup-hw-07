@@ -1,8 +1,5 @@
 .hero-title {
   @include font($fs: 44px, $fw: 900, $ls: 0.06em);
-  // font-weight: 900;
-  // font-size: 44px;
-  // letter-spacing: 0.06em;
 
   line-height: 1.364;
   text-transform: uppercase;

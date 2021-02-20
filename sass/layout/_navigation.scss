@@ -1,8 +1,5 @@
 .site-nav-link {
   @include font($fw: 500, $ls: 0.02em);
-  // font-weight: 500;
-  // font-size: 14px;
-  // letter-spacing: 0.02em;
 
   line-height: 1.143;
   color: $text-head-color;
@@ -14,11 +11,6 @@
     color: $accent-color;
   }
 }
-
-// .site-nav-link:hover,
-// .site-nav-link:focus {
-//   color: $accent-color;
-// }
 
 .studio-blue {
   color: $accent-color;
@@ -82,10 +74,6 @@
     margin-right: 50px;
   }
 }
-
-// .site-nav-list:not(:last-child) {
-//   margin-right: 50px;
-// }
 
 .site-nav-link {
   display: flex;

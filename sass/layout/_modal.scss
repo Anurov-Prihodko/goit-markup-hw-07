@@ -35,9 +35,6 @@
 
 .modal-title {
   @include font($fs: 20px, $fw: 700);
-  // font-weight: 700;
-  // font-size: 20px;
-  // letter-spacing: 0.03em;
 
   line-height: 1.15;
   color: $text-head-color;
@@ -53,10 +50,6 @@
     margin-bottom: 10px;
   }
 }
-
-// .form-field:not(:last-child) {
-//   margin-bottom: 10px;
-// }
 
 .form-field input {
   margin: 0;
@@ -91,10 +84,6 @@
   }
 }
 
-// .form-input-modal:focus + .form-img {
-//   fill: $accent-color;
-// }
-
 .form-input-modal {
   width: 100%;
   height: 40px;
@@ -108,16 +97,8 @@
   }
 }
 
-// .form-input-modal:focus {
-//   outline: none;
-//   border-color: var(--accent-color);
-// }
-
 .form-field label {
   @include font($fs: 12px, $ls: 0.01em);
-  // font-weight: 400;
-  // font-size: 12px;
-  // letter-spacing: 0.01em;
 
   font-family: $text-font;
   line-height: 1.167;
@@ -146,15 +127,6 @@
     color: $place-color;
   }
 }
-
-// .form-field textarea::placeholder {
-//   font-family: $text-font;
-//   font-weight: 400;
-//   font-size: 14px;
-//   line-height: 1.143;
-//   letter-spacing: 0.01em;
-//   color: rgba(117, 117, 117, 0.5);
-// }
 
 .check-input {
   position: absolute;
@@ -202,24 +174,6 @@
   }
 }
 
-// .check-input:checked ~ .check::before {
-//   background-image: url(../img/modal/checkbox-icomoon.svg);
-//   border-color: $accent-color;
-//   background-color: $accent-color;
-//   background-size: contain;
-//   background-position: center;
-//   background-origin: border-box;
-// }
-
-// .check-input:focus ~ .check::before {
-//   background-image: url(../img/modal/checkbox-icomoon.svg);
-//   border-color: $accent-color;
-//   background-size: contain;
-//   background-position: center;
-//   background-origin: border-box;
-//   /* border-radius: 2px; */
-// }
-
 .check-text {
   color: $accent-color;
 }
@@ -240,9 +194,6 @@
 
 .agree-checkbox label {
   @include font();
-  // font-weight: 400;
-  // font-size: 14px;
-  // letter-spacing: 0.03em;
 
   line-height: 1.714;
   text-align: center;

@@ -17,10 +17,6 @@
   }
 }
 
-// .regular-list-item:not(:last-child) {
-//   margin-right: 30px;
-// }
-
 .regular-list-link {
   width: 100%;
   height: 100%;
@@ -42,11 +38,6 @@
   }
 }
 
-// .regular-list-link:hover,
-// .regular-list-link:focus {
-//   border-color: $accent-color;
-// }
-
 .regular-list-icon {
   transition: fill $time $function-time;
 
@@ -55,8 +46,3 @@
     fill: $accent-color;
   }
 }
-
-// .regular-list-link:hover .regular-list-icon,
-// .regular-list-link:focus .regular-list-icon {
-//   fill: $accent-color;
-// }
